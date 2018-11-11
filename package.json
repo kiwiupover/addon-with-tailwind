@@ -21,7 +21,11 @@
     "test:all": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^6.16.0"
+    "ember-cli-babel": "^6.16.0",
+    "ember-cli-bootstrap-sassy": "^0.5.8",
+    "ember-cli-sass": "7.1.7",
+    "broccoli-merge-trees": "^3.0.0",
+    "ember-cli-tailwind": "^0.6.2"
   },
   "devDependencies": {
     "@ember/optional-features": "^0.6.3",
@@ -48,7 +52,8 @@
     "eslint-plugin-ember": "^5.2.0",
     "eslint-plugin-node": "^7.0.1",
     "loader.js": "^4.7.0",
-    "qunit-dom": "^0.7.1"
+    "qunit-dom": "^0.7.1",
+    "sass": "^1.14.3"
   },
   "engines": {
     "node": "6.* || 8.* || >= 10.*"
